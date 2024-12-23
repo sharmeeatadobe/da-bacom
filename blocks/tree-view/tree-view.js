@@ -107,6 +107,7 @@ const linkKeydown = (event) => {
 
 const init = async (el) => {
   const topList = el.querySelector('ul');
+  console.log('AEM Code sync installation');
 
   if (!topList) return;
 
